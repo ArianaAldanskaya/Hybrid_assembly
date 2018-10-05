@@ -14,7 +14,7 @@ ENV PATH $PATH:/opt/jre1.8.0_181/bin
 RUN apt-get update && apt-get install -y g++ libboost-all-dev zlib1g-dev libbz2-dev make
 RUN curl -fsSL https://sourceforge.net/projects/mummer/files/mummer/3.23/MUMmer3.23.tar.gz/download -o /opt/mummer.tar.gz
 RUN cd /opt/; tar -xzvf mummer.tar.gz; cd MUMmer3.23; configure; make; make install
-ENV PATH $PATH:/opt/mummer/bin
+ENV PATH $PATH:/opt/MUMmer3.2/bin
 
 
 # Install MeDuSa 1.6
