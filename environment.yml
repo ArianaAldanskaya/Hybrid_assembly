@@ -4,6 +4,7 @@ dependencies:
   - python
   - biopython
   - sh
+  -java
 
 
 
