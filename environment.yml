@@ -1,0 +1,10 @@
+name: medusa-env
+
+dependencies:
+  - python
+  - biopython
+  - sh
+
+
+
+ 
