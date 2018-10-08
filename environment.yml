@@ -6,18 +6,16 @@ channels:
   - benschneider
 dependencies:
   - python
-  - biopython
   - sh
+  - sed
+  - gawk
   - perl
   - gcc
-  - gawk
-  - sed
   - fig2dev
   - gnuplot
   - xfig
-  - networkx
-
-
+  - decorator
+  - numpy
 
 
  
