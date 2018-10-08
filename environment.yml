@@ -4,6 +4,8 @@ dependencies:
   - python
   - biopython
   - sh
+  - perl
+  - gcc
 
 
 
