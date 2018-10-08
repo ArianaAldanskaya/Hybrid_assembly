@@ -15,6 +15,7 @@ dependencies:
   - fig2dev
   - gnuplot
   - xfig
+  - networkx
 
 
 
