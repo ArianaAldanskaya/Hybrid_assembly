@@ -27,7 +27,7 @@ ENV PATH $PATH:/opt/medusa
 COPY environment.yml /
 RUN conda env create -f /environment.yml && conda clean -a
 RUN conda install -c conda-forge biopython
-RUN cd /opt/conda/envs/medusa-env/bin; pip install --upgrade pippip; install networkx
+RUN cd /opt/conda/envs/medusa-env/bin; pip install --upgrade pip; pip install networkx
 ENV PATH /opt/conda/envs/medusa-env/bin:$PATH
 
 
