@@ -5,7 +5,7 @@ channels:
   - conda-forge
   - benschneider
 dependencies:
-  - python
+  - python=2.7
   - sh
   - sed
   - gawk
@@ -16,6 +16,7 @@ dependencies:
   - xfig
   - decorator
   - numpy
+  - networkx
 
 
 
